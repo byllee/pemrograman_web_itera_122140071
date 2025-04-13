@@ -2,7 +2,6 @@ function sapaNama(nama) {
     return `Halo, ${nama}! Selamat belajar!`;
 }
 
-// Event handler untuk tombol sapa
 document.getElementById("sapa-button").addEventListener("click", function() {
     const nama = document.getElementById("nama-input").value;
     if (nama.trim() === "") {
@@ -15,7 +14,6 @@ document.getElementById("sapa-button").addEventListener("click", function() {
     }
 });
 
-// Fungsi untuk kalkulator dengan operasi tambahan
 function hitungKalkulator(angka1, angka2, operasi) {
     let hasil = 0;
     switch (operasi) {

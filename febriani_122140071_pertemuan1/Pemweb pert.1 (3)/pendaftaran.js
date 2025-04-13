@@ -1,5 +1,5 @@
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Mencegah form dari pengiriman default
+    event.preventDefault(); 
 
     // Mengambil nilai input
     const name = document.getElementById('name').value;

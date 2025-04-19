@@ -1,0 +1,14 @@
+.search-bar {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #AFA28C; 
+    border-radius: 4px;
+    background-color: #F5F1E3; 
+    color: #2E2E2E; /* Dark Gray text */
+  }
+  

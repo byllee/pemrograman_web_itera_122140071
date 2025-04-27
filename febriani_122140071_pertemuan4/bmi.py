@@ -14,7 +14,7 @@ class BMI:
         elif 25 <= bmi < 30:
             return "Berat badan berlebih"
         else:
-            return "Obesitas"
+            return "Obesitas/kelebihan berat badan"
 
     def tampilkan_hasil(self):
         bmi = self.hitung_bmi()

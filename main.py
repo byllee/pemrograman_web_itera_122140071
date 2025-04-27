@@ -26,10 +26,8 @@ def main():
             suhu_celsius = float(input("Masukkan suhu dalam Celsius: "))
             break  
         except ValueError:
-            print("Input tidak valid. Harap masukkan angka yang benar dalam celsius.")
+            print("Input tidak valid. Harap masukkan angka yang benar dalam derajat celsius.")
 
     print(f"{suhu_celsius}°C ke Fahrenheit: {celsius_ke_fahrenheit(suhu_celsius):.2f}°F")
     print(f"{suhu_celsius}°C ke Kelvin: {celsius_ke_kelvin(suhu_celsius):.2f}K")
 
-if __name__ == "__main__":
-    main()

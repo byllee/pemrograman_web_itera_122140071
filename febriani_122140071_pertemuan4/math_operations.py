@@ -1,6 +1,6 @@
 import math
 
-# Fungsi untuk menghitung luas dan keliling bentuk bangun datar
+# Menghitung luas dan keliling bentuk bangun datar
 def luas_persegi(sisi):
     return sisi * sisi
 

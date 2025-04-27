@@ -1,0 +1,40 @@
+.book-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FDFBF7; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #2E2E2E; /* Dark Gray text */
+  }
+  
+  .book-form input,
+  .book-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #AFA28C; 
+    border-radius: 4px;
+    background-color: #F5F1E3; 
+    color: #2E2E2E; 
+  }
+  
+  .book-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #382110; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-form button:hover {
+    background-color: #4f2d1c; 
+  }
+  
+  .book-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
